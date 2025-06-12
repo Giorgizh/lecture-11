@@ -115,10 +115,10 @@ input[type="submit"]:hover {
   display: flex;
   gap: 100px;
   padding-bottom: 40px;
-  img{
-    box-shadow: -2px -3px 21px 0px rgba(0,0,0,0.74);
--webkit-box-shadow: -2px -3px 21px 0px rgba(0,0,0,0.74);
--moz-box-shadow: -2px -3px 21px 0px rgba(0,0,0,0.74);
+  img {
+    box-shadow: -2px -3px 21px 0px rgba(0, 0, 0, 0.74);
+    -webkit-box-shadow: -2px -3px 21px 0px rgba(0, 0, 0, 0.74);
+    -moz-box-shadow: -2px -3px 21px 0px rgba(0, 0, 0, 0.74);
   }
 }
 footer {
