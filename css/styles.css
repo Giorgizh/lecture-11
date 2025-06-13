@@ -52,8 +52,7 @@ select {
   color: #99999a;
   padding-left: 19px;
 }
-.subs [type="email"],
-select {
+.subs [type="email"] {
   width: 370px;
   height: 59px;
   border: 2px solid #d4d3d3;
