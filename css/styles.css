@@ -52,6 +52,16 @@ select {
   color: #99999a;
   padding-left: 19px;
 }
+.subs [type="email"],
+select {
+  width: 370px;
+  height: 59px;
+  border: 2px solid #d4d3d3;
+  font-weight: 700;
+  font-size: 14px;
+  color: #99999a;
+  padding-left: 19px;
+}
 input[type="submit"] {
   width: 370px;
   height: 59px;
