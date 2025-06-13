@@ -1,6 +1,6 @@
 body {
-  margin-top: 57px;
-  margin-left: 144px;
+  padding-top: 50px;
+  margin: 0 auto;
   max-width: 1440px;
   justify-items: center;
 }
@@ -124,6 +124,7 @@ input[type="submit"]:hover {
   display: flex;
   gap: 100px;
   padding-bottom: 40px;
+  flex-wrap: wrap;
   img {
     box-shadow: -2px -3px 21px 0px rgba(0, 0, 0, 0.74);
     -webkit-box-shadow: -2px -3px 21px 0px rgba(0, 0, 0, 0.74);
@@ -134,13 +135,12 @@ footer {
   background-color: #000000;
   width: 100%;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   width: 1440px;
-  height: 372px;
+  height: 300px;
 }
 .left {
-  padding-left: 143px;
-  padding-top: 63px;
-  align-items: center;
   padding-right: 191px;
   h1 {
     color: white;
@@ -156,7 +156,6 @@ footer {
   }
 }
 .nleft {
-  padding-top: 63px;
   li {
     padding-bottom: 9px;
   }
@@ -171,8 +170,6 @@ footer {
   }
 }
 .nright {
-  padding-top: 63px;
-  padding-left: 86px;
   li {
     padding-bottom: 9px;
   }
@@ -187,8 +184,6 @@ footer {
   }
 }
 .right {
-  padding-top: 63px;
-  padding-left: 124px;
   li {
     padding-bottom: 19px;
   }
